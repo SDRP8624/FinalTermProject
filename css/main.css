@@ -1,0 +1,35 @@
+.row{
+    height: 100vh;
+}
+
+.bg red{
+    background-color: red;
+}
+.bg blue{
+    background-color: blue;
+}
+.bg green{
+    background-color: green;
+}
+
+.cell{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+cell-blue{
+    margin-top: 50px;
+    height: calc(100vh/3);
+
+}
+cell-green{
+    margin-top: 50px;
+    height: calc(2*100vh/3);
+    
+}
+
+.container-fluid{
+    overflow:hidden;
+}
